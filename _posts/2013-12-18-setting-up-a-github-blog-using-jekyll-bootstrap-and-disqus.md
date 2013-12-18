@@ -2,7 +2,7 @@
 layout: post
 title: "Setting up a github blog using Jekyll Bootstrap and Disqus"
 description: "How I did it in as simple language as possible"
-category: "Blog"
+category: Blog
 tags: [jekyll, disqus, tutorial]
 ---
 {% include JB/setup %}
