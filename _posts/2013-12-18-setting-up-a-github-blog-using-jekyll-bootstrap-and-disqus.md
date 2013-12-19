@@ -139,7 +139,7 @@ Checking this requires that you have Jekyll installed locally.  I decided to use
 This install will take a few minutes as a few dependencies need to come along with the jekyll package.  When it is installed you can start a local jekyll instance with a server to see if your markdown compiles correctly.  You need to start this server from the directory that has the site in it:
 
     cd /home/USERNAME/git-repos/USERNAME.github.com
-	 jekyll serve
+    jekyll serve
 
 If you get a lot of error messages you may want to parse through this output with a trace:
 
@@ -150,12 +150,12 @@ I made a few errors and each error takes up several lines so I piped the output 
 Once you have the markdown on your post correctly written you should see this when you start the server:
 
     Configuration file: /home/USERNAME/git-repos/USERNAME.github.com/_config.yml
-	             Source: /home/USERNAME/git-repos/USERNAME.github.com
-		     Destination: /home/USERNAME/git-repos/USERNAME.github.com/_site
-			 Generating... Maruku#to_s is deprecated and will be removed or changed in a near-future version of Maruku.
-	 done.
-	     Server address: http://0.0.0.0:4000
-	   Server running... press ctrl-c to stop.
+                Source: /home/USERNAME/git-repos/USERNAME.github.com
+           Destination: /home/USERNAME/git-repos/USERNAME.github.com/_site
+          Generating... Maruku#to_s is deprecated and will be removed or changed in a near-future version of Maruku.
+    done.
+        Server address: http://0.0.0.0:4000
+      Server running... press ctrl-c to stop.
 
 Errors I had made:
 
