@@ -19,11 +19,11 @@ Without further adieu, here is how I managed to make it work.  As always, your m
 
 #Prepare Github
 
-[Github}(http://github.com) has a static web pages hosting service.  Through this service you can host static web sites, that would be sites that do not interact a lot with the user but simply display information.  If you want a simple blog this is a great way to go.  Add to that you can control your own content, develop your content locally and manage versions (through git) and you have a pretty great package.
+[Github](http://github.com) has a static web pages hosting service.  Through this service you can host static web sites, that would be sites that do not interact a lot with the user but simply display information.  If you want a simple blog this is a great way to go.  Add to that you can control your own content, develop your content locally and manage versions (through git) and you have a pretty great package.
 
 If you don't have a github account yet you will want to go [here](http://github.com) and sign up for one. The accounts are free and afterwards you can put all kinds of projects under version control.  Do keep in mind that if you want an account that hides code (or blog articles) you will need a paid account.  If you want private repositories for code development you may want to try [Bitbucket](http://bitbucket.org).  Bitbucket allows git and mercurial repos but doesn't have the static webpage hosting service.
 
-Once you have your github account you will need a repository to host the blog.  Click the "Create a new repo" icon (top right hand side, next to your username). Name your repo something like <username>.github.com.  It turns out you can probably put most anything you want in for <username> but most examples use your github username, I know that works as that is what I did.
+Once you have your github account you will need a repository to host the blog.  Click the "Create a new repo" icon (top right hand side, next to your username). Name your repo something like USERNAME.github.com.  It turns out you can probably put most anything you want in for USERNAME but most examples use your github username, I know that works as that is what I did.
 
 At this point the repo isn't fully initialized - there are no files under version control (unless you chose to initialize it when creating by checking the "Initialize this repository with a README" box when creating the repo).  Doing it this way is probably the easiest as you don't end up with colliding repos.  Next you want to go to the Jekyll-Bootstrap startup page to get things going with Jekyll-Bootstrap.
 
@@ -106,7 +106,7 @@ There is much more to Markdown than this, head over to [Daring Fireball](http://
 
 What is a blog without comments?  On a blog like this one I need comments because I am talking about how I do things - how else can people get further help or make suggestions to improve my processes without a form of comments?
 
-Jekyll allows for a number of possible comment engines.  Looking in the _config.yml file you see a section that looks like this:
+Jekyll allows for a number of possible comment engines.  Looking in the `_config.yml` file you see a section that looks like this:
 
     # Settings for comments helper
      # Set 'provider' to the comment provider you want to use.
@@ -126,7 +126,7 @@ Jekyll allows for a number of possible comment engines.  Looking in the _config.
         width: 580
         colorscheme: light
 
-This blog uses [Disqus](http://disqus.com) so to set up comments I went to their site and set up an account.  In setting things up I had to give the blog a name, give Disqus information about the blog (minimal) and set a short name.  When I had that I could put the shortname in the _config.yml file.  Next you will need to follow the link for setup instructions for "Universal Code".  This will give you a segment of html that you can place in your website pages to connect your Disqus comment account with the blog.  Put this block of code in your `_layouts/posts.html` file.  This file is a template that grabs code from various places, I simply copied the html from Disqus and pasted it at the bottom of the posts.html file, this places the Disqus comment box at the bottom of all post pages the site generates.
+This blog uses [Disqus](http://disqus.com) so to set up comments I went to their site and set up an account.  In setting things up I had to give the blog a name, give Disqus information about the blog (minimal) and set a short name.  When I had that I could put the shortname in the `_config.yml` file.  Next you will need to follow the link for setup instructions for "Universal Code".  This will give you a segment of html that you can place in your website pages to connect your Disqus comment account with the blog.  Put this block of code in your `_layouts/posts.html` file.  This file is a template that grabs code from various places, I simply copied the html from Disqus and pasted it at the bottom of the posts.html file, this places the Disqus comment box at the bottom of all post pages the site generates.
 
 #Getting the posts on the blog
 
