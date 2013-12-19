@@ -128,6 +128,42 @@ Jekyll allows for a number of possible comment engines.  Looking in the `_config
 
 This blog uses [Disqus](http://disqus.com) so to set up comments I went to their site and set up an account.  In setting things up I had to give the blog a name, give Disqus information about the blog (minimal) and set a short name.  When I had that I could put the shortname in the `_config.yml` file.  Next you will need to follow the link for setup instructions for "Universal Code".  This will give you a segment of html that you can place in your website pages to connect your Disqus comment account with the blog.  Put this block of code in your `_layouts/posts.html` file.  This file is a template that grabs code from various places, I simply copied the html from Disqus and pasted it at the bottom of the posts.html file, this places the Disqus comment box at the bottom of all post pages the site generates.
 
+#Checking the post to be sure it will render
+
+Before you push this bad boy to the github servers you may want to check and be sure it is compiling correctly.  If you push a markdown page up to github and it isn't compiling correctly github simply won't make changes to your website and you will be stuck wondering what is going on (like I have been for the past hour or so).
+
+Checking this requires that you have Jekyll installed locally.  I decided to use the gems (I think of these like pip install commands in Python and assume you are getting the freshest packages that way).
+
+    sudo gem install jekyll
+
+This install will take a few minutes as a few dependencies need to come along with the jekyll package.  When it is installed you can start a local jekyll instance with a server to see if your markdown compiles correctly.  You need to start this server from the directory that has the site in it:
+
+    cd /home/USERNAME/git-repos/USERNAME.github.com
+	 jekyll serve
+
+If you get a lot of error messages you may want to parse through this output with a trace:
+
+    jekyll serve -trace | less
+
+I made a few errors and each error takes up several lines so I piped the output through less so I could make changes.
+
+Once you have the markdown on your post correctly written you should see this when you start the server:
+
+    Configuration file: /home/USERNAME/git-repos/USERNAME.github.com/_config.yml
+	             Source: /home/USERNAME/git-repos/USERNAME.github.com
+		     Destination: /home/USERNAME/git-repos/USERNAME.github.com/_site
+			 Generating... Maruku#to_s is deprecated and will be removed or changed in a near-future version of Maruku.
+	 done.
+	     Server address: http://0.0.0.0:4000
+	   Server running... press ctrl-c to stop.
+
+Errors I had made:
+
+1. malformed URL (hope that will improve as I work with markdown more)
+2. not putting a `_config.yml` in backticks (the preceding underscore is a special character in markdown and needs to be escaped with backticks)
+
+Now you are ready to update the local repo, commit and push to github.
+
 #Getting the posts on the blog
 
 One of the great things about this approach is you can use your tools on your computer and then push the content to github for hosting.  When you have your posts ready all you need to do is be sure the files are staged for commit:
