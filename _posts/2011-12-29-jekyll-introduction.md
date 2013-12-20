@@ -1,7 +1,8 @@
 ---
 layout: post
-category : lessons
-tagline: "Supporting tagline"
+category : Lessons
+summary: "Great overview that came with the Jekyll Bootstrap setup files.  Good place to start to learn about Jekyll and what it can do for you."
+tagline: "Static web pages for everyone!"
 tags : [intro, beginner, jekyll, tutorial]
 ---
 {% include JB/setup %}
