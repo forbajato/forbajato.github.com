@@ -2,6 +2,7 @@
 layout: post
 title: "Setting up a github blog using Jekyll Bootstrap and Disqus"
 description: "How I did it in as simple language as possible"
+summary: "I have been playing with blogging for a long time, now I am ready to take the next step and try doing a static blog hosted on Github's gh-pages service.  Here is how I set it up, started with basic posts, did some theme experiments and even added comments.  Overall not as difficult as I thought but there were some pitfalls and traps to avoid."
 category: Blog
 tags: [jekyll, disqus, tutorial]
 ---
