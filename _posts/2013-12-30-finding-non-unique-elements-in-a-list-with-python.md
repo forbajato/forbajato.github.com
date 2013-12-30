@@ -4,7 +4,7 @@ title: "Finding Non Unique Elements in a list with python"
 description: "Solving the first puzzle on Checkio"
 summary: "A few ways to solve the first Checkio problem in python."
 category: Python
-tags: [python, puzzle, checkio, learning]
+tags: [python, puzzle, checkio, learning, tutorial]
 ---
 {% include JB/setup %}
 
