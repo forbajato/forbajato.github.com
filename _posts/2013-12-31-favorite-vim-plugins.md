@@ -2,6 +2,7 @@
 layout: post
 title: "Favorite Vim Plugins"
 description: "My most used Vim plugins as of right now"
+summary: "A brief overview of the Vim plugins I use most, where to get them and intro on installing them using pathogen."
 category: "Blog"
 tags: [vim, programming, plugins]
 ---
@@ -22,7 +23,7 @@ As great as Vim is there are things it doesn't do easily, that is where plugins 
 Getting Vim plugins to work is not generally difficult but sometimes there are a number of files that have to be put in the correct spots in the file tree.  Along came [Pathogen](https://github.com/tpope/vim-pathogen).  This amazing little plugin allows you to install and manage plugins for Vim in their own private directories.  After a bit of configuring (see the Pathogen git repo for instructions) installing a plugin (like, say NerdTree) is simple:
 
     cd ~/.vim/bundle
-	 git clone https://github.com/scrooloose/nerdrtee.git
+    git clone https://github.com/scrooloose/nerdrtee.git
 
 Simple!
 
