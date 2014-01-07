@@ -16,7 +16,7 @@ Recently I stumbled on the [Checkio](http://www.checkio.org) site.  This is like
 
 #The puzzle
 
-The first puzzle on the site seems to be the "Non-unique Elements" puzzle.  In it you have to take a list of arbitrary length and find all the elements in it that are not unique.  For instance the list [1,1,3,3,2] would return a list of only the non-unique elements [1,1,3,3] and discard the 2.  
+The first puzzle on the site seems to be the "Non-unique Elements" puzzle.  In it you have to take a list of arbitrary length and find all the elements in it that are not unique.  For instance the list `[1,1,3,3,2]` would return a list of only the non-unique elements [1,1,3,3] and discard the 2.  
 
 #First solution (i.e. "The inelegant one!")
 
