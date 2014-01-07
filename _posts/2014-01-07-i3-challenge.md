@@ -10,7 +10,7 @@ tags: [window managers, i3, challenge]
 
 #Rationale
 
-Tiling window managers are interesting.  I have tried out dwm, awesome and i3 in the past but only ever really spent time with awesome.  Awesome has had a tendency to make rather jarring changes in how they configure the WM and I have never really mastered it.  When I recently checked out i3 I decided to give it a go.
+Tiling window managers are interesting.  I have tried out dwm, awesome and i3 in the past but only ever really spent time with awesome.  Awesome has had a tendency to make rather jarring changes in how they configure the WM and I have never really mastered it.  When I recently checked out [i3](http://i3wm.org) I decided to give it a go.
 
 Why use a tiling window manager?  Well, I find that I spend most of my time with my applications maximized.  Even though KDE has a great desktop with widgets galore available, I find that I don't use them much because my browser or terminal is maximized and covers up all those cool widgets.  Since I am covering up those widgets anyway, why use them?
 
