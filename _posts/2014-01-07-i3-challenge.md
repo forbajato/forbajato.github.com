@@ -28,13 +28,13 @@ There is a metapackage that handles installing i3 and some other goodies (like i
 
 #Configuration
 
-i3 comes with the default $mod key being either the <Alt> key or the <Super> key (the one with an Ubunutu logo on my System76 laptop but probably has some Windows related logo on other keyboards).  There is a great overview of configuration and use of i3 on Youtube posted by [gotbletu](http://www.youtube.com/watch?v=yAq_Enj_d2Q).  I started there and have made some tweaks that fit my work flow.
+i3 comes with the default $mod key being either the `<Alt>` key or the `<Super>` key (the one with an Ubunutu logo on my System76 laptop but probably has some Windows related logo on other keyboards).  There is a great overview of configuration and use of i3 on Youtube posted by [gotbletu](http://www.youtube.com/watch?v=yAq_Enj_d2Q).  I started there and have made some tweaks that fit my work flow.
 
-I like using the <Alt> key for my $mod key so at the top of the .i3/config file you set:
+I like using the `<Alt>` key for my $mod key so at the top of the .i3/config file you set:
 
     set $mod Mod1
 
-If you want to use the <Super> key instead just set that to Mod4.
+If you want to use the `<Super>` key instead just set that to Mod4.
 
 I love Synapse, the program launcher that I have used for years in XFCE4, KDE and even Unity.  Firing it up is now part of my muscle memory and loosing that would be a shame.  So to start dmenu I need to have it use the same key combination that I use to access Synapse in the other desk top environments:
 
@@ -53,11 +53,11 @@ The maker of the youtube video referenced above sees things differently than I d
 
     bindsym $mod+b split h
 
-Now I love keyboard bindings and try to learn a few bindings for common tasks on my most used applications on a routine basis.  My hands have gotten used to the <Alt>fd combination to send unsent mail in Thunderbird.  Unfortunately i3 has $mod+f mapped to go full screen.  Easy enough to change, we will just map that to the Ubuntu key instead of the <Alt> key:
+Now I love keyboard bindings and try to learn a few bindings for common tasks on my most used applications on a routine basis.  My hands have gotten used to the `<Alt>fd` combination to send unsent mail in Thunderbird.  Unfortunately i3 has $mod+f mapped to go full screen.  Easy enough to change, we will just map that to the Ubuntu key instead of the `<Alt>` key:
 
     bindsym Mod4+f fullscreen
 
-Notice to map it to the <Super> key I used the full name of the key, not the variable (i.e. not "$mod4").
+Notice to map it to the `<Super>` key I used the full name of the key, not the variable (i.e. not "$mod4").
 
 I have been using a 4 workspace model with KDE for sometime now - terminal (either in a workspace or using guake), web (browser, email client, etc.), fun (gotta have a place for Steam!) and media.  With i3 you can name those workspaces and the key combinations to jump to them.  Search down the config file for the "# switch to workspace" line and add:
 
