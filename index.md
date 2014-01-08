@@ -19,7 +19,6 @@ tagline: Documenting tech challenges and wins
 
 ##To Do
 
-* Update the way the post list looks, improve summary, etc.
 * Add blog roll
 * Add tag cloud
 * Add about section
