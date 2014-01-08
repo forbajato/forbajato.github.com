@@ -49,7 +49,7 @@ I complete agree with gotbletu, making the moving focus to be vim compatible is 
 
 I made the similar changes in the "# move focused window" section.
 
-The maker of the youtube video referenced above sees things differently than I do.  I think that when you do a "split vertical" you should end up with two windows, one stacked on top of the other in vertical alignment.  Apparently the makers of i3 agree so they set up the splits with $mod+v giving a vertical split and $mod+h giving a horizontal split.  That would be great but we just defined $mod+h to focus left.  If you tried to restart i3 with the new config after making the focus changes you got an error, i3 won't let you have two actions bound to the same keybindings (thanks to the devs for that!).  So I remapped the split horizontal to $mod+b, the 'b' key is right next to the 'v' key in a qwerty keyboard layout so that made sense to me.
+The maker of the youtube video referenced above sees things differently than I do.  I think that when you do a "split vertical" you should end up with two windows, one stacked on top of the other in vertical alignment.  Apparently the makers of i3 [agree][1] so they set up the splits with $mod+v giving a vertical split and $mod+h giving a horizontal split.  That would be great but we just defined $mod+h to focus left.  If you tried to restart i3 with the new config after making the focus changes you got an error, i3 won't let you have two actions bound to the same keybindings (thanks to the devs for that!).  So I remapped the split horizontal to $mod+b, the 'b' key is right next to the 'v' key in a qwerty keyboard layout so that made sense to me.
 
     bindsym $mod+b split h
 
@@ -110,3 +110,5 @@ There are a number of applications that I can't live without, you can set them t
 	 exec sleep 3 && guake
 
 There are still a few things I haven't figured out yet, chief among them is volume control with the multimedia keys.  Other than that little annoyance I am thoroughly enjoying my i3 experience (having used it exclusively for a week), even my wife is tolerating it!  If you have other thoughts on tweaks for i3 or config ideas please feel free to leave them in the comments.
+
+[1]: http://i3wm.org/docs/userguide.html#_tree "The Tree in i3"
