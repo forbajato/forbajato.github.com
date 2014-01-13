@@ -2,7 +2,7 @@
 layout: post
 title: "Favorite Firefox plugins"
 description: "My most used Firefox plugins"
-summary: "Firefox is a wonderful browser with lots of native functionality.  Even with all those native functions there are still somethings that could be better.  Luckily, the makers of Firefox realized that one size does not necessarily fit all.  In order to allow easy customization they included a way to extend the functions of the browser with plugins.  This post recounts my favorites and why I use each one.
+summary: "Firefox is a wonderful browser with lots of native functionality.  Even with all those native functions there are still somethings that could be better.  Luckily, the makers of Firefox realized that one size does not necessarily fit all.  In order to allow easy customization they included a way to extend the functions of the browser with plugins.  This post recounts my favorites and why I use each one."
 category: "blog"
 tags: [firefox, plugins]
 ---
