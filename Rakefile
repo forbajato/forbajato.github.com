@@ -97,6 +97,13 @@ task :page do
   end
 end # task :page
 
+#Adding my own edit to the Rakefile to sync the _site directory to the raspberry pi
+desc "rsync the contents of _site directory to the raspberry pi"
+task :syncpi do
+	puts '* Publishing files to RaspberryPi'
+	puts `rsync -avz "_site/" pi@192.168.0.39:/home/pi/srv/web/`
+end
+
 desc "Launch preview environment"
 task :preview do
   system "jekyll serve -w"
