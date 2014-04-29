@@ -2,8 +2,8 @@
 layout: post
 title: "Python Puzzle   Counting characters in a string"
 description: "More Checkio Python Puzzlers"
-category: "Count the number of times a character occurs in a string, return the most frequently occurring character"
-summary: "A common problem in programming is looking through a data set and enumerating the data.  How many times does the letter "a" occur?  This Python Puzzler introduces a common pattern for solving this sort of problem."
+summary: "A common problem in programming is looking through a data set and enumerating the data.  How many times does the letter `a` occur?  This Python Puzzler introduces a common pattern for solving this sort of problem."
+category: "Blog"
 tags: [checkio, tutorial, python, puzzle, learning]
 ---
 {% include JB/setup %}
