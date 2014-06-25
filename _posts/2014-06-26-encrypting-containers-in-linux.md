@@ -101,3 +101,5 @@ This is no big deal if all you need to do is shut it down when you shut down the
     sudo losetup -d /dev/loop1
 
 Nothing to it!
+
+I leaned heavily on the post [here](http://www.linux.org/threads/encrypted-containers-without-truecrypt.4478/#post-16113) with a few changes and comments to make it clearer to me for future use.  If this isn't clear to you you should check out that post - it is quite good.
