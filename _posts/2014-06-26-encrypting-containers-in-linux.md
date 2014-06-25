@@ -102,4 +102,14 @@ This is no big deal if all you need to do is shut it down when you shut down the
 
 Nothing to it!
 
-I leaned heavily on the post [here](http://www.linux.org/threads/encrypted-containers-without-truecrypt.4478/) with a few changes and comments to make it clearer to me for future use.  If this isn't clear to you you should check out that post - it is quite good.
+#What about starting it up the next time?
+
+Obviously now the device is made, it has a partition on it and the partition is formated.  All you have to do is connect it to a loop device, map it and mount it:
+
+    sudo losetup /dev/loop1 /home/dude/one.bin
+	 sudo cryptsetup luksOpen /dev/loop1 cryptStuff
+    sudo mount /dev/mapper/cryptStuff /home/dude/cryptStuff
+
+And voila!
+
+I leaned heavily on the post [here](http://www.linux.org/threads/encrypted-containers-without-truecrypt.4478/) with a few changes and comments to make it clearer to me for future use.  If this isn't clear to you you should check out that post - it is quite good. Alternatively you could take a chance that I could help and leave a comment, I would love to hear from you if this tutorial was helpful or confusing.
