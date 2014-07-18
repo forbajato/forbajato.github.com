@@ -22,3 +22,5 @@ tagline: Documenting tech challenges and wins
 * Add blog roll
 * Add tag cloud
 * Add about section
+
+Subscribe <a href="/feed.xml">via RSS</a>.
