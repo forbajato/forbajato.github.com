@@ -15,6 +15,10 @@ author :
   email : shuangyisheng@gmail.com
   github : forbajato
 #url: http://forbajato.github.io
+site :
+   name : Forbajato Techblog
+   description : Journeys in technology mistakes and triumphs
+   url : http://forbajato.github.io
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
