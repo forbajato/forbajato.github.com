@@ -23,5 +23,5 @@ tagline: Documenting tech challenges and wins
 * Add tag cloud
 * Add about section
 * More stuff in the TODO list.
-* Subscribe <a href="/feed.xml">via RSS</a>.
+* Subscribe <a href="/atom.xml">via Atom</a>.
 
