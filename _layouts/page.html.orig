@@ -1,0 +1,9 @@
+---
+layout: default
+---
+{% include JB/setup %}
+<<<<<<< HEAD
+{% include themes/hooligan/page.html %}
+=======
+{% include themes/bootstrap-3/page.html %}
+>>>>>>> 1f3596c4459e7386ba0283f88e899473ab9507c7

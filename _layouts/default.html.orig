@@ -1,0 +1,13 @@
+---
+theme :
+<<<<<<< HEAD
+  name : hooligan
+---
+{% include JB/setup %}
+{% include themes/hooligan/default.html %}
+=======
+  name : bootstrap-3
+---
+{% include JB/setup %}
+{% include themes/bootstrap-3/default.html %}
+>>>>>>> 1f3596c4459e7386ba0283f88e899473ab9507c7
