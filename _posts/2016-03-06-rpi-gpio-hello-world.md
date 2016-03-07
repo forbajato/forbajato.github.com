@@ -2,7 +2,7 @@
 layout: post
 title: "Raspberry Pi GPIO "Hello World"
 description: "The 'Hello World' of the physical computing realm is blinking an LED.  Here is how to do it with an RPi running RPi.GPIO on Raspbian Wheezy."
-summary: "The first step in the world of physical computing is generally to wire up an LED and make it blink.  The RPi's GPIO pins make this quite simple, even with older models.  Here is how to do it with an Raspberry Pi B+."
+summary: "The first step in the world of physical computing is generally to wire up an LED and make it blink.  The RPi's GPIO pins make this quite simple, even with older models."
 category: "Tutorials" 
 tags: [blog, physical computing, python, raspberrypi]
 ---
